@@ -1,0 +1,26 @@
+public class Application {
+
+	public static void main(String[] args) {
+		int myNumber;
+		myNumber = 88;
+		
+		short myShort = 80;
+		long myLong = 1200;
+		double myDouble = 3.14;
+		float myFloat = 1.11f;
+		boolean myBoolean = true;
+		char myChat = 'x';
+        byte myByte = 124;
+		
+		
+		System.out.println(myNumber);
+		System.out.println(myShort);
+		System.out.println(myLong);
+		System.out.println(myDouble);
+		System.out.println(myFloat);
+		System.out.println(myBoolean);
+		System.out.println(myChat);
+		System.out.println(myByte);
+	}
+}
+
