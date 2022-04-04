@@ -1,0 +1,13 @@
+public class Application {
+	public static void main(String[] args) {
+		
+		for(int i = 0; i < 5; i++) {
+			// two arguments, string, variable
+			// %d to print numeric print output
+			// \n means to start a new line
+			System.out.printf("the value of i is %d\n", i);
+		}
+
+	}
+
+}
