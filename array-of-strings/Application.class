@@ -1,0 +1,36 @@
+public class Application {
+	public static void main(String[] args) {
+		
+		String[] words = new String[3];
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you"; 
+		
+		// another way to initialize an array of strings
+		String[] fruits = {"banana", "apple", "pear", "kiwi"};
+		
+		for (String fruit: fruits) {
+			System.out.println(fruit);
+		}
+		
+		int value = 0;
+		
+		// this is allocating enough memory for a string reference
+		// a reference is basically an address of some memory
+		// the default value for reference is null
+		String text = null;
+		
+		System.out.println(text);
+		
+		
+		// with the initialization of an array of strings below, the computer has allocated enough memory for TWO references to strings
+		// It's not allocating the memory for the actual strings.
+		String[] texts = new String[2];
+		
+		// when I assign some value to the string a below
+		// I am allocating memory for a string, and I am pointing the reference texts[0] here at this string
+		texts[0] = "hello";
+		
+	}
+
+}
